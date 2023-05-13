@@ -103,6 +103,8 @@ while True:
                     sleep(0.35)
                 cv2.rectangle(img, (15, 700), (1250, 550), (192,192,192), cv2.FILLED)
                 cv2.putText(img, finalText, (70, 610),cv2.FONT_HERSHEY_PLAIN, 5, (0,0,0), 5)
+                cv2.imshow("Virtual Keyboard",img)
+
 
 
 
