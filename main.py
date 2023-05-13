@@ -101,5 +101,7 @@ while True:
                     else:
                         finalText += str(button.text)
                     sleep(0.35)
+                cv2.rectangle(img, (15, 700), (1250, 550), (192,192,192), cv2.FILLED)
+
 
    
